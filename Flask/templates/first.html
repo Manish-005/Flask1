@@ -1,0 +1,42 @@
+{# <!DOCTYPE html>
+<html>
+<body>
+<center>
+	<h1>Home page</h1>
+	<label>User name:-</label>
+</center>
+</body>
+</html> #}
+<!DOCTYPE html>
+<html>
+<head>
+	<center>
+    <title>Registration Page</title>
+    <!-- Add any additional CSS styles or external CSS links here -->
+ 	</center>
+</head>
+<body>
+    <center>
+    <h1>Registration Page</h1>
+    <form action="/register" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+        <br>
+        
+        <input type="submit" value="Register">
+    </center>
+    </form>
+</body>
+</html>
